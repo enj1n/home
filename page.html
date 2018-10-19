@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Опрос </title>
+</head>
+
+<body>
+    <a href="index.html">Главная</a>
+
+    <a href="page.html">Опрос</a>
+  
+    <section>
+        <h1>Пройдите наш опрос, пожалуйста</h1>
+        <form method="POST" action="https://formspree.io/alexvader95@gmail.com">
+            <label for="client-name">Введите ваше имя</label>
+            <input type="text" name="client-name" placeholder="Client Name" id="client-name" required>
+            <br>
+            <label>Ваш email
+                    <input type="email" name="client-email"
+                     placeholder="Client Email" required>
+                </label>
+                <br>
+            <label>Нравятся ли вам пекинесы? :D </label>
+            <label>
+                    <input type="radio" name="value" value="да">Да
+                </label>
+            <label>
+                    <input type="radio" name="value" value="female">Нет
+                </label>
+            <br>
+            <label>Ваш пол</label>
+            <label>
+                    <input type="radio" name="gender" value="male">Мужчина
+                </label>
+            <label>
+                    <input type="radio" name="gender" value="female">Женщина
+                </label>
+            <label>
+                    <input type="radio" name="gender" value="other" checked>Другое
+                </label>
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </section>
+
+</body>
+
+</html>
